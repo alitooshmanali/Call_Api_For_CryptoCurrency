@@ -61,56 +61,20 @@ namespace Domain.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to BirthDay must be valid format &apos;yyyy/MM/dd&apos;..
-        /// </summary>
-        public static string BirthDayMustBeValid {
-            get {
-                return ResourceManager.GetString("BirthDayMustBeValid", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Id cannot be empty..
-        /// </summary>
-        public static string IdCannotBeEmpty {
-            get {
-                return ResourceManager.GetString("IdCannotBeEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Name cannot be empty..
         /// </summary>
-        public static string NameCanNotBeEmpty {
+        public static string CryptoCurrency_Name_CannotBeEmpty {
             get {
-                return ResourceManager.GetString("NameCanNotBeEmpty", resourceCulture);
+                return ResourceManager.GetString("CryptoCurrency_Name_CannotBeEmpty", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to NationalCode cannot be empty..
+        ///   Looks up a localized string similar to Symbol cannot be empty..
         /// </summary>
-        public static string NationalCodeCannotBeEmpty {
+        public static string CryptoCurrency_Symbol_CannotBeEmpty {
             get {
-                return ResourceManager.GetString("NationalCodeCannotBeEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to NationalCode must have ten number..
-        /// </summary>
-        public static string NationalCodeMustHaveTenNumber {
-            get {
-                return ResourceManager.GetString("NationalCodeMustHaveTenNumber", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Surname cannot be empty..
-        /// </summary>
-        public static string SurnameCannotBeEmpty {
-            get {
-                return ResourceManager.GetString("SurnameCannotBeEmpty", resourceCulture);
+                return ResourceManager.GetString("CryptoCurrency_Symbol_CannotBeEmpty", resourceCulture);
             }
         }
     }

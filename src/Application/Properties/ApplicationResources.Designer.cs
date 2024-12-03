@@ -59,14 +59,5 @@ namespace Application.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unable to found by {0}..
-        /// </summary>
-        public static string Global_UnableToFound {
-            get {
-                return ResourceManager.GetString("Global_UnableToFound", resourceCulture);
-            }
-        }
     }
 }
